@@ -4,17 +4,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
+    <!-- SEO Meta Tags -->
+    <!-- <meta name="description" content="Free mobile app HTML landing page template to help you build a great online presence for your app which will convert visitors into users">
+    <meta name="author" content="Inovatik"> -->
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
 
     <!-- Website Title -->
     <title>Dom + Eli Wedding</title>
     
     <!-- Styles -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet"> 
-    <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'> -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/fontawesome-all.css" rel="stylesheet">
     <link href="css/swiper.css" rel="stylesheet">
@@ -39,9 +47,12 @@
     <!-- end of preloader -->
     
 
-    <!-- Navigation -->
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
         <a class="navbar-brand logo-text page-scroll" href="index.html">DOMINIC + ELIZABETH</a>
+        <!-- Image Logo : replaced with text logo above -->
+        <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>  -->
         
         <!-- Mobile Menu Toggle Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,7 +64,7 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#header">HOME<span class="sr-only">(current)</span></a>
+                    <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#map">MAP</a>
@@ -61,43 +72,95 @@
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#program">PROGRAM</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link page-scroll" href="#rsvp">RSVP</a>
-                </li>
+                </li> -->
 
                 <!-- Dropdown Menu -->          
-                <!-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="#details" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">NIL</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" href="#expect" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">WHAT TO EXPECT</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">FOO</span></a>
+                        <a class="dropdown-item" href="program"><span class="item-text">PROGRAM LIST</span></a>
                         <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">BAR</span></a>
+                        <a class="dropdown-item" href="ifnew"><span class="item-text">IF THIS IS NEW TO YOU</span></a>
                     </div>
-                </li> -->
+                </li>
                 <!-- end of dropdown menu -->
-                
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">RSVP</a>
+                </li>
             </ul>
+            <!-- <span class="nav-item social-icons">
+                <span class="fa-stack">
+                    <a href="#your-link">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-facebook-f fa-stack-1x"></i>
+                    </a>
+                </span>
+                <span class="fa-stack">
+                    <a href="#your-link">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-twitter fa-stack-1x"></i>
+                    </a>
+                </span>
+            </span> -->
         </div>
     </nav> <!-- end of navbar -->
-    <!-- end of navigation -->
+    <!-- end of navbar -->
 
 
     <!-- Header -->
-    <header id="header" class="header">
+    <!-- <header id="header" class="header">
         <div class="header-content">
-            <div class="container-fluid" style="background-color: rgba(254,254,254,0.4);">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-6">
                         <div class="text-container">
-                            <h1 class="text-center" style="font-family: Garamond, serif;">THE HOLY MATRIMONY</h1>
-                            <h4 class="text-center" style="font-family: Garamond, serif;"><i>of</i></h4>
-                            <h2 class="text-center" style="font-family: Garamond, serif;">DOMINIC YEO & ELIZABETH TAN</h2>
+                            <h1>MOBILE APP <br>FOR <span id="js-rotating">DESIGNERS, MARKETERS, DEVELOPERS</span></h1>
+                            <p class="p-large">Leno is one of the easiest and feature packed marketing automation apps in the market. Download it today!</p>
+                            <a class="btn-solid-lg page-scroll" href="#your-link"><i class="fab fa-apple"></i>APP STORE</a>
+                            <a class="btn-solid-lg page-scroll" href="#your-link"><i class="fab fa-google-play"></i>PLAY STORE</a>
+                        </div>
+                    </div>  -->
+                    <!-- end of col -->
+                  <!--   <div class="col-lg-6">
+                        <div class="image-container">
+                            <img class="img-fluid" src="images/header-iphone.png" alt="alternative"> -->
+                     <!--    </div>  --><!-- end of image-container -->
+                  <!--   </div>  --><!-- end of col -->
+                <!-- </div>  --><!-- end of row -->
+            <!-- </div>  --><!-- end of container -->
+       <!--  </div>  --><!-- end of header-content -->
+    <!-- </header>  --><!-- end of header -->
+    <!-- end of header -->
+
+        <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12" style="background-color: rgba(250,250,250,0.5);">
+                        <div class="text-container">
+                            <h1 class="text-center" style="font-family: Garamond, serif;"> THE HOLY MATRIMONY </h1>
+                            <h3 class="text-center" style="font-family: Garamond, serif;"> <i>of </i> </h3>
+                            <h2 class="text-center" style="font-family: Garamond, serif;"> DOMINIC YEO & ELIZABETH TAN </h2>
                             <br><br>
-                            <h4 class="text-center" style="font-family: Garamond, serif;">Celebrated in the Extraordinary Form of the Latin Rite of the Roman Catholic Church</h4>
+                            <h3 class="text-center" style="font-family: Garamond, serif;"> Celebrated in the Extraordinary Form of the Latin Rite of the Roman Catholic Church </h3>
                             <br><br>
-                            <h3 style="font-family: Garamond, serif;">22 August 2020</h3> 
-                            <h3 style="font-family: Garamond, serif;">12.30 pm</h3>
-                            <h3 style="font-family: Garamond, serif;">Church of Saints Peter and Paul</h3>
+                            <h3 class="text-center" style="font-family: Garamond, serif;"> 7 August 2021 </h3>
+                            <h3 class="text-center" style="font-family: Garamond, serif;"> 10 am </h3>
+                            <h3 class="text-center" style="font-family: Garamond, serif;"> Church of Saints Peter and Paul </h3>
+                            <h4 class="text-center" style="font-family: Garamond, serif;"> <i> 225A Queen Street </i> </h4>
+                            <h4 class="text-center" style="font-family: Garamond, serif;"> <i> Singapore 188551 </i> </h4>
+
+                            <br><br>
+
+                            <h2 class="text-center" style="font-family: Garamond, serif;"> <i> Proceeded by a lunch reception at </i> </h2>
+                            <h3 class="text-center" style="font-family: Garamond, serif;"> 1pm </h3>
+                            <h3 class="text-center" style="font-family: Garamond, serif;">CHIJMES </h3>
+                            <h3 class="text-center" style="font-family: Garamond, serif;"> Lei Garden Restaurant </h3>
+                            <h4 class="text-center" style="font-family: Garamond, serif;"> <i> 30 Victoria St, #01-24 Chijmes</i> </h4>
+                            <h4 class="text-center" style="font-family: Garamond, serif;"> <i> Singapore 187996 </i> </h4>                          
                         </div>
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
@@ -105,130 +168,149 @@
         </div> <!-- end of header-content -->
     </header> <!-- end of header -->
     <!-- end of header -->
-    
+  
 
-    <div id="map" class="basic-2">
+    <!-- Features -->
+    <div id="features" class="tabs">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-12">
+                    <h2>GETTING HERE</h2>
+                    <div class="p-heading p-large">Leno was designed based on input from personal development coaches and popular trainers so it offers all</div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+
+                <!-- Tabs Links -->
+                <ul class="nav nav-tabs" id="lenoTabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true"><i class="fas fa-cog"></i>PUBLIC TRANSPORT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false"><i class="fas fa-binoculars"></i>DRIVING</a>
+                    </li>                    
+                </ul>
+                <!-- end of tabs links -->
+
+
+                <!-- Tabs Content-->
+                <div class="tab-content" id="lenoTabsContent">
+                    
+                    <!-- Tab -->
+                    <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h3>Nearest MRTs</h3>
+                                    <hr>
+                                    <table class="table table-dark">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Line</th>
+                                                <th scope="col">Station</th>
+                                                <th scope="col">Dist. to church</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Yellow</td>
+                                                <td>Bras Basah</td>
+                                                <td>2 mins</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Red / Green</td>
+                                                <td>City Hall</td>
+                                                <td>7 mins</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Blue</td>
+                                                <td>Bencoolen</td>
+                                                <td>5 mins</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Blue</td>
+                                                <td>Bugis</td>
+                                                <td>10mins</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>                    
+                            </div> <!-- end of row -->
+                        </div> <!-- end of container -->                                
+                    </div> <!-- end of tab-pane -->
+                    <!-- end of tab -->
+
+                    <!-- Tab -->
+                    <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h3>Carparks Nearby</h3>
+                                    <hr>
+                                    <p>We regret that due to the limited space within the church compound, there are no parking available for our guests. Hopefully this chart helps you find a convenient parking spot. There are also other carparks in the vicnity not listed here.</p>
+                                    <table class="table table-dark">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Carpark</th>
+                                                <th scope="col">Dist. from church</th>
+                                                <th scope="col">No. of lots</th>
+                                                <th scope="col">Est. 3hrs cost parking</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Asanoya Queen St<br>123 Queen St</td>
+                                                <td>3 mins walk</td>
+                                                <td>Moderate</td>
+                                                <td>$10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Asanoya Queen St</td>
+                                                <td>3 mins walk</td>
+                                                <td>Moderate</td>
+                                                <td>$10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Asanoya Queen St</td>
+                                                <td>3 mins walk</td>
+                                                <td>Moderate</td>
+                                                <td>$10</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>                                         
+                                </div>                            
+                            </div> <!-- end of row -->
+                        </div> <!-- end of container -->
+                    </div> <!-- end of tab-pane -->
+                    <!-- end of tab -->
+
+                </div> <!-- end of tab-content -->
+                <!-- end of tabs content -->
+
+            </div> <!-- end of row --> 
+        </div> <!-- end of container --> 
+
+        <br><br><br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
                     <div class="embed-responsive embed-responsive-4by3"> 
                         <div id="map-container" class="embed-responsive-item">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7945770463893!2d103.84899351476864!3d1.297973699053311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19a4afd69c1f%3A0x5081267f983b3e79!2sChurch%20of%20Saints%20Peter%20%26%20Paul!5e0!3m2!1sen!2ssg!4v1575538274000!5m2!1sen!2ssg" width="800" height="650" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                         </div> 
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <br><br>
-                    <h3 style="font-family: Roboto Slab, serif; font-size: 2rem;">Church of Saints Peter and Paul</h3>
-                    <h4 style="font-family: Roboto Slab, serif; font-size: 1.8rem";><i>225A Queen St, Singapore 188551</i></h4>
-                    
-                    <span class="col align-self-center">
-                    <a class="btn-outline-reg popup-with-move-anim" href="#driving-details-lightbox">I am driving</a>
-                    <a class="btn-outline-reg popup-with-move-anim" href="#pubtrans-details-lightbox">I am taking the MRT</a>
-                    </span>
-                   
-                    
-                    <!-- <span class="col-6 col-md-4">
-                    <a class="btn-solid-reg popup-with-move-anim" href="#driving-details-lightbox">Driving</a>
-                    <a class="btn-solid-reg popup-with-move-anim" href="#pubtrans-details-lightbox">Public Transport</a>
-                    </span> -->
-                </div>
-            </div>
-        </div>  
-    </div>
-
-    <!-- Driving details -->
-    <div id="driving-details-lightbox" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-12">
-                <h3>Carparks Nearby</h3>
-                <hr>
-                <p>We regret that due to the limited space within the church compound, there are no parking available for our guests. Hopefully this chart helps you find a convenient parking spot. There are also other carparks in the vicnity not listed here.</p>
-                <table class="table table-dark">
-                    <thead>
-                        <tr>
-                            <th scope="col">Carpark</th>
-                            <th scope="col">Dist. from church</th>
-                            <th scope="col">No. of lots</th>
-                            <th scope="col">Est. 3hrs cost parking</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Asanoya Queen St<br>123 Queen St</td>
-                            <td>3 mins walk</td>
-                            <td>Moderate</td>
-                            <td>$10</td>
-                        </tr>
-                        <tr>
-                            <td>Asanoya Queen St</td>
-                            <td>3 mins walk</td>
-                            <td>Moderate</td>
-                            <td>$10</td>
-                        </tr>
-                        <tr>
-                            <td>Asanoya Queen St</td>
-                            <td>3 mins walk</td>
-                            <td>Moderate</td>
-                            <td>$10</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <a class="btn-outline-reg mfp-close as-button" href="#map">BACK</a> 
             </div>
         </div>
-    </div>
-    <!-- end of driving details -->
-    
-    <!-- Public transport details -->
-    <div id="pubtrans-details-lightbox" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-12">
-                <h3>Nearest MRTs</h3>
-                <hr>
-                <table class="table table-dark">
-                    <thead>
-                        <tr>
-                            <th scope="col">Line</th>
-                            <th scope="col">Station</th>
-                            <th scope="col">Dist. to church</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Yellow</td>
-                            <td>Bras Basah</td>
-                            <td>2 mins</td>
-                        </tr>
-                        <tr>
-                            <td>Red / Green</td>
-                            <td>City Hall</td>
-                            <td>7 mins</td>
-                        </tr>
-                        <tr>
-                            <td>Blue</td>
-                            <td>Bencoolen</td>
-                            <td>5 mins</td>
-                        </tr>
-                        <tr>
-                            <td>Blue</td>
-                            <td>Bugis</td>
-                            <td>10mins</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <a class="btn-outline-reg mfp-close as-button" href="#map">BACK</a> 
-            </div>
-        </div> 
-    </div>
-    <!-- end of public transport details -->
+    </div> <!-- end of tabs -->
+    <!-- end of features -->
 
 
 
     <!-- FAQs-->
-    <div id="program" class="basic-2">
+    <!-- <div id="program" class="basic-1"> -->
+	<div id="program" class="basic-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -238,7 +320,8 @@
             </div> 
             <div class="row">
                 <div class="col-lg-12">
-                    <h3 style="font-family: Palatino, Times, serif;" class="text-left">Program list</h2>
+                    <br>
+                    <h3 style="font-family: Palatino, Times, serif;" class="text-left">Program list</h3>
                     <hr>
                 </div>
                 <table class="table table-borderless table-dark">
@@ -280,13 +363,14 @@
             </div>
             <!-- end of divider for seperating the two components -->
 
-            <!-- FAQ -->
-            <div class="row">
+
+			<div class="row">
                 <div class="col-lg-12">
                     <h3 style="font-family: Palatino, Times, serif;" class="text-left">If this is new to you</h3>
                     <!-- <div class="p-heading p-large">If this is new to you:</div> -->
                 </div>
             </div> 
+
             <div class="accordion" id="common-qns">
                 <!-- <div class="card  text-white bg-dark mb-3"> -->
                 <div class="card">
@@ -301,7 +385,7 @@
                             Thankfully, depsite the brash suppression of many spiritually edifying observations, the structure of the new mass had remained generally intact. If you recall the structure of the Ordinary Form of the mass that you are familiar with, you will be able to follow along without much difficulties. Do pick up a copy of the mass booklet, you should find the translations useful. You will also find in it prayers of a poetic splendour unseen since the dark days following the 2nd Vatican Council. 
                             <br>
                             <br>
-                            If you don't feel comfortable attending on your own, do feel free to bring along a friend who may be interested!  
+                            If you don't feel comfortable attending on your own, do feel free to bring along a friend who may be interested! 
                         </div>
                     </div>
                 </div>
@@ -318,7 +402,7 @@
                             In this mass you will witness a form of liturgy that had been celebrated for two millenium by the Catholic Church, developing gradually and organically over the centuries. It traces its roots to the Apostles. Unfortunately the Catholic Church went through a major crisis in the revolutionary decade of the 1960s. The Church is still in the depths of this crisis - a spirtual one as a result of the abandonment of orthodox (small-'o') Catholic spirituality inspired by God for innovations invented by man. 
                             <br>
                             <br>
-                            If you have Catholic friends who are willing to join you in attending our celebrations, you are most welcome to invite them along! Please do indicate so in the RSVP. If you prefer to find out more before making your decision, feel free to contact us too. 
+                            If you have Catholic friends who are willing to join you in attending our celebrations, you are most welcome to invite them along! Please do indicate so in the RSVP. If you prefer to find out more before making your decision, feel free to contact us too.
                         </div>
                     </div>
                 </div>
@@ -335,14 +419,15 @@
                         Do not worry if this is your first visit to a Catholic mass. You may simply sit and observe the solemnity, or stand as the situation calls for it. You may choose not to kneel if you do not feel inclined to. While the church is a dignified and somber place, do relax and make yourself comfortable! God loves each and every one of you, and is delighted at your presence. 
                         <br>
                         <br>
-                        Sometimes when we attend a social function among a community we are not familiar with, we find having a friend coming together helps very much in alleviating the awkwardness. You are most welcome to bring a friend along no matter if this friend is a Catholic or if this is equally unfamiliar to him or her. Feel free to contact us if you need more details before making a decision! 
+                        Sometimes when we attend a social function among a community we are not familiar with, we find having a friend coming together helps very much in alleviating the awkwardness. You are most welcome to bring a friend along no matter if this friend is a Catholic or if this is equally unfamiliar to him or her. Feel free to contact us if you need more details before making a decision!
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
+
+
 
     <!-- Contact -->
     <div id="rsvp" class="form">
@@ -360,7 +445,7 @@
                 <div class="col-lg-6 offset-lg-3">
                     <div class="form-group">
                         <a href="https://time.is">
-                            <button type="submit" class="form-control-submit-button">SUBMIT MESSAGE</button>
+                            <button type="submit" class="form-control-submit-button" style="font-size:110%">RSVP</button>
                         </a>
                     </div>
                 </div> <!-- end of col -->
@@ -370,6 +455,8 @@
     <!-- end of contact -->
 
     
+
+    	
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
@@ -377,8 +464,7 @@
     <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
     <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
     <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
-    <!-- <script src="js/validator.min.js"></script> Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->-->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
 </body>
 </html>
